@@ -14,7 +14,7 @@ User Story #212017: WPF: Create Movie Application
 >   - Year Released
 >   - Average Star Rating (0 - 5)
 > - [x] It should have a Submit button.
-> - [ ] When the user clicks Submit, send a message stating, "Entry for
+> - [x] When the user clicks Submit, send a message stating, "Entry for
 >   Movie (Movie Title) from (Year Released) accepted."
 > - [ ] After that, clear all the fields so the user can enter another
 >   movie.

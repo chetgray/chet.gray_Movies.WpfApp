@@ -11,5 +11,12 @@ namespace Movies.WpfApp
         {
             InitializeComponent();
         }
+
+        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(
+                $"Entry for Movie {TitleInput.Text} from {ReleaseYearInput.Text} accepted."
+            );
+        }
     }
 }
