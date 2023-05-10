@@ -4,11 +4,11 @@ using System.Windows.Controls;
 namespace Movies.WpfApp
 {
     /// <summary>
-    /// Interaction logic for MovieEntryWindow.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MovieEntryWindow : Window
+    public partial class MainWindow : Window
     {
-        public MovieEntryWindow()
+        public MainWindow()
         {
             InitializeComponent();
         }
