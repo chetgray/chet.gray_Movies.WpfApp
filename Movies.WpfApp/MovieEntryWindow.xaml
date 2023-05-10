@@ -42,25 +42,27 @@
             FontWeight="Bold"
             Padding="5"
             Text="Enter a new Movie" />
-        <Label
+        <TextBlock
             Grid.Row="2"
             Grid.Column="1"
             Grid.ColumnSpan="2"
             HorizontalAlignment="Right"
             VerticalAlignment="Center"
-            Content="Movie Title:" />
+            Padding="5"
+            Text="Movie Title:" />
         <TextBox
             x:Name="TitleInput"
             Grid.Row="2"
             Grid.Column="3"
             VerticalAlignment="Center" />
-        <Label
+        <TextBlock
             Grid.Row="3"
             Grid.Column="1"
             Grid.ColumnSpan="2"
             HorizontalAlignment="Right"
             VerticalAlignment="Center"
-            Content="Genre:" />
+            Padding="5"
+            Text="Genre:" />
         <ComboBox
             x:Name="GenreInput"
             Grid.Row="3"
@@ -76,37 +78,40 @@
             <ComboBoxItem>SciFi</ComboBoxItem>
             <ComboBoxItem>Other</ComboBoxItem>
         </ComboBox>
-        <Label
+        <TextBlock
             Grid.Row="4"
             Grid.Column="1"
             Grid.ColumnSpan="2"
             HorizontalAlignment="Right"
             VerticalAlignment="Center"
-            Content="Director:" />
+            Padding="5"
+            Text="Director:" />
         <TextBox
             x:Name="DirectorInput"
             Grid.Row="4"
             Grid.Column="3"
             VerticalAlignment="Center" />
-        <Label
+        <TextBlock
             Grid.Row="5"
             Grid.Column="1"
             Grid.ColumnSpan="2"
             HorizontalAlignment="Right"
             VerticalAlignment="Center"
-            Content="Year Released:" />
+            Padding="5"
+            Text="Year Released:" />
         <TextBox
             x:Name="YearReleasedInput"
             Grid.Row="5"
             Grid.Column="3"
             VerticalAlignment="Center" />
-        <Label
+        <TextBlock
             Grid.Row="6"
             Grid.Column="1"
             Grid.ColumnSpan="2"
             HorizontalAlignment="Right"
             VerticalAlignment="Center"
-            Content="Average Star Rating:" />
+            Padding="5"
+            Text="Average Star Rating:" />
         <ComboBox
             x:Name="StarRatingAverageInput"
             Grid.Row="6"
