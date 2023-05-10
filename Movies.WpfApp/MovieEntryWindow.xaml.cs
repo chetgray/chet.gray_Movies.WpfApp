@@ -15,6 +15,18 @@ namespace Movies.WpfApp
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
+            foreach (UIElement child in FormLayout.Children)
+            {
+                if (
+                    (child is TextBox textBox && string.IsNullOrWhiteSpace(textBox.Text))
+                    || (child is ComboBox comboBox && comboBox.SelectedIndex == -1)
+                )
+                {
+                    MessageBox.Show("All fields are required.");
+                    return;
+                }
+            }
+
             MessageBox.Show(
                 $"Entry for Movie {TitleInput.Text} from {ReleaseYearInput.Text} accepted."
             );
